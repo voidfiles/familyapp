@@ -1,1 +1,10 @@
-{}
+{
+  "auth": {
+    "familyapp7dc3404a": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
