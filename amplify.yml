@@ -3,6 +3,7 @@ backend:
   phases:
     build:
       commands:
+        - env
         - '# Execute Amplify CLI with the helper script'
         - cat /usr/bin/amplifyPush
         - amplifyPush -e staging --simple
