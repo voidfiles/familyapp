@@ -4,6 +4,7 @@ backend:
     build:
       commands:
         - '# Execute Amplify CLI with the helper script'
+        - cat amplifyPush
         - amplifyPush -e staging --simple
 frontend:
   phases:
