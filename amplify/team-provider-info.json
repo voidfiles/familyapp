@@ -16,5 +16,23 @@
         "familyapp7dc3404a": {}
       }
     }
+  },
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-familyapp-prod-214332-authRole",
+      "UnauthRoleArn": "arn:aws:iam::140099371219:role/amplify-familyapp-prod-214332-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::140099371219:role/amplify-familyapp-prod-214332-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-familyapp-prod-214332-deployment",
+      "UnauthRoleName": "amplify-familyapp-prod-214332-unauthRole",
+      "StackName": "amplify-familyapp-prod-214332",
+      "StackId": "arn:aws:cloudformation:us-west-2:140099371219:stack/amplify-familyapp-prod-214332/65339af0-57b5-11eb-b04a-069d68851b1b",
+      "AmplifyAppId": "d2tn0mhl4ksnfd"
+    },
+    "categories": {
+      "auth": {
+        "familyapp7dc3404a": {}
+      }
+    }
   }
 }
